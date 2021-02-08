@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">Dad's Jokes</a>
+                <a className="navbar-brand" href="/classSide">Dad's Jokes (func side)</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
