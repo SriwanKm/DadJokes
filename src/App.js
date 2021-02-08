@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Navbar from './components/layout/Navbar'
 import Navbar2 from './components/layout/Navbar2'
 import Joke from "./components/Joke";
@@ -22,7 +22,6 @@ function App() {
                     <Route exact path="/classSide" component={Joke2}/>
                     <Route exact path="/about" component={About}/>
                     <Route exact path="/about2" component={About2}/>
-
                 </div>
             </div>
         </Router>
